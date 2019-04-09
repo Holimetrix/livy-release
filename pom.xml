@@ -189,6 +189,10 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>public</id>
+      <url>http://repo.hortonworks.com/content/repositories/releases/</url>
+    </repository>
   </repositories>
 
   <modules>
@@ -1072,7 +1076,7 @@
         <spark.version>2.3.2.3.1.0.0-78</spark.version>
         <netty.spark-2.11.version>4.1.17.Final</netty.spark-2.11.version>
         <spark.bin.download.url>
-          http://mirrors.advancedhosters.com/apache/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz
+          https://archive.apache.org/dist/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz
         </spark.bin.download.url>
         <spark.bin.name>spark-2.3.1-bin-hadoop2.7</spark.bin.name>
       </properties>
